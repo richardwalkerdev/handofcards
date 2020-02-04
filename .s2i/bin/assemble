@@ -21,6 +21,8 @@ fi
 
 echo "---> Installing application source..."
 cp -Rf /tmp/src/. ./
+echo "---> Fixing persmissions..."
+chmod -R 775 ./
 
 echo "---> Building application from source..."
 
